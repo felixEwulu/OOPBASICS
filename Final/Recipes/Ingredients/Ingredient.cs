@@ -1,4 +1,4 @@
-﻿namespace CookbookCorrection.Recipes.Ingredients;
+﻿namespace Final.Recipes.Ingredients;
 
 public abstract class Ingredient
 {
@@ -7,5 +7,5 @@ public abstract class Ingredient
     public virtual string PreparationInstructions => "Add to other ingredients.";
     
     public override string ToString() =>
-    $"{Id}. {Name}";
+        $"{Id}.  {Name}";
 }
